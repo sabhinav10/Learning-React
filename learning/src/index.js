@@ -1,7 +1,16 @@
-//React is imported as it contains the libraries to import JSX
 import React from "react";
-//ReactDOM is imported as it contains the render function 
 import ReactDOM from "react-dom";
-//ReactDOM.render(what you want to render , where you want to render)
-ReactDOM.render(<ul><li>Ironman</li><li>Batman</li><li>Superman</li></ul>,document.getElementById("root"));
+//Creating functional components,always follow camel case convention used for constructors(first letter of each word is capital)
+//Put the ul in the return statement with brackets enclosed to make it more readable
+function MyApp(){
+  return(
+  <ul>
+    <li>Ironman</li>
+    <li>Batman</li>
+    <li>Superman</li>
+  </ul>
+  );
+}
+//To render it ,create an instance of the functional component as this:<MyApp/>
+ReactDOM.render(<MyApp/>,document.getElementById("root"));
 
