@@ -1,17 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//React is imported as it contains the libraries to import JSX
+import React from "react";
+//ReactDOM is imported as it contains the render function 
+import ReactDOM from "react-dom";
+//ReactDOM.render(what you want to render , where you want to render)
+ReactDOM.render(<h1>Getting strted with React</h1>,document.getElementById("root"));
