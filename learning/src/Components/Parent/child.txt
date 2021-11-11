@@ -1,0 +1,11 @@
+To create a parent child component structur,we need to first break down our JSX content into small chink and make functional components for each chunk.
+In the end ,wrapping each component into a single html element and putting it in a single parent component.
+Componets can have a parent child relationship with other components where component containing the other components is the parent component and the later the child components.
+
+function ParentComponent(){
+    return(
+        <ChildComponent1/>
+        <ChildComponent2/>
+        <ChildComponent3/>
+    )
+} 
