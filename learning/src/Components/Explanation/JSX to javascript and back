@@ -1,2 +1,9 @@
 Any javascript varriable in JSX can be written with {} brackets. For JSX to know that a varriable is a javascript varriable,you need to do that.
 See the Greetings functional component for that.
+
+STYLING JSX
+In JSX ,it does not expect the property value to be a style ,rather it expects it to be a javascript object 
+so,while doing styles ,every property needs to wrapped inside {}.
+You just create a simple javascript object with styles  property
+For putting values ,you should follow javascript syntax.
+See the Greetings component.
