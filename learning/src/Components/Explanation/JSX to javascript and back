@@ -1,0 +1,2 @@
+Any javascript varriable in JSX can be written with {} brackets. For JSX to know that a varriable is a javascript varriable,you need to do that.
+See the Greetings functional component for that.
