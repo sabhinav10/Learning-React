@@ -1,10 +1,10 @@
 import React from "react";
-
+import "./styles.css"
 function MyHeader(){
     return(
-        <header>
-            <h1>Hi!! My name is Abhinav😀</h1>
-        </header>
+        <div className = "header">       
+               <h1 className="intro">Hi!! My name is Abhinav😀</h1>
+        </div>  
     )
 }
 export default MyHeader;
