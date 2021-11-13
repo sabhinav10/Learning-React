@@ -1,11 +1,10 @@
 import React from "react";
-
-function ToDoItem()
-{
+import "./styles.css"
+function ToDoItem(){
     return(
         <div className = "todo-item">
             <input type="checkbox" />
-            <p>checkbox will go here</p>
+            <p>Placeholder text here</p>
         </div>
     )
 }
